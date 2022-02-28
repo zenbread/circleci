@@ -32,4 +32,4 @@ commands:
         type: string
         default: "Quack Quack"
     steps:
-      - run: echo "Hello <<parameters.to>>""
+      - run: echo "Hello <<parameters.to \n>>""
