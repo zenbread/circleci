@@ -15,7 +15,7 @@ jobs:
     steps:
       - run:
           name: "Billy test"
-          command: false
+          command: "false"
           shell: /bin/bash
       - make-speak:
           when: on_fail
