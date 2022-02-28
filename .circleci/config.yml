@@ -17,7 +17,8 @@ jobs:
           name: "Billy test"
           command: "false"
           shell: /bin/bash
-      - make-speak:
+      - run:
+          command: echo "We done broke"
           when: on_fail
         
 # Invoke jobs via workflows
