@@ -13,7 +13,7 @@ jobs:
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
-      - makeSpeak:
+      - make-speak:
           to: "Fuck"
 
 # Invoke jobs via workflows
@@ -25,7 +25,7 @@ workflows:
 
 
 commands:
-  makeSpeak:
+  make-speak:
     description: "This makes something say something."
     parameters:
       to:
